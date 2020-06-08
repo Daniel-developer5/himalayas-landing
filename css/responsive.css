@@ -1,0 +1,375 @@
+@media only screen and (max-width: 1200px) {
+    header, .copyright {
+        padding: 10px 20px;
+    }
+    
+    .menu {
+        width: 85%;
+    }
+
+    .title-box {
+        width: 75%;
+    }
+
+    .title-box h2 {
+        font-size: 36px;
+    }
+
+    .pad {
+        padding: 90px 20px 0 20px;
+    }
+
+    .about, .team {
+        padding-bottom: 90px;
+    }
+
+    .blog {
+        padding-bottom: 120px;
+    }
+
+    .advert {
+        padding: 70px 20px 60px 20px;
+    }
+
+    .text-box {
+        width: 75%;
+    }
+
+    .hover-box div:first-child {
+        height: 32%;
+        padding-bottom: 5px;
+    }
+
+    .hover-box div:last-child {
+        height: 68%;
+        justify-content: center;
+    }
+
+    .hover-box div h3 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .inner-hover {
+        height: 90%;
+    }
+
+    .social-list {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .menu {
+        width: 90%;
+    }
+
+    .menu li a {
+        font-size: 14px;
+    }
+
+    .title-box h2 {
+        font-size: 26px;
+    }
+
+    .advert {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pad {
+        padding: 50px 20px 0 20px;
+    }
+
+    .inner-pad {
+        padding-top: 50px;
+    }
+
+    .about, .team {
+        padding-bottom: 50px;
+    }
+
+    .blog {
+        padding-bottom: 80px;
+    }
+
+    .advert .text-box {
+        width: 99%;
+    }
+
+    .advert .a-link-box {
+        width: 100%;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .advert .a-title, 
+    .advert .a-desc {
+        text-align: center;
+    }
+
+    .offer-list li, .blog-list li,
+    .team-list li {
+        width: 48%;
+    }
+
+    .p-list li {
+        width: 50%;
+    }
+
+    .blog-list li:last-child,
+    .team-list li:last-child {
+        margin-top: 20px;
+    }
+
+    .blog-list, .team-list {
+        justify-content: space-around;
+    }
+
+    .foot-list {
+        width: 75%;
+        margin-left: 20px;
+    }
+
+    .left {
+        margin-left: 20px;
+    }
+
+    .social-list {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .menu {
+        width: 20%;
+        position: absolute;
+        top: 55px;
+        right: 79px;
+        flex-direction: column;
+        background-color: #32c4d1;
+        border-radius: 5px;
+        transform: translateX(250px);
+    }
+
+    .menu li a {
+        padding: 0 10px;
+        font-size: 15px;
+    }
+
+    .menu li:first-child a {
+        padding-top: 10px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .menu li:last-child a {
+        padding-bottom: 10px;
+        border-radius: 0 0 5px 5px;
+    }
+
+
+    .menu li a:hover {
+        background-color: #236a70;
+    }
+
+    .trigger {
+        display: flex;
+    }
+
+    .title-box h2 {
+        font-size: 22px;
+    }
+
+    .slider-description {
+        font-size: 18px;
+    }
+
+    .arrow-box {
+        padding: 0 15px;
+    }
+
+    .section-temp span {
+        width: 80px;
+    }
+
+    .section-temp h2 {
+        margin: 0 20px;
+    }
+
+    .about .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-box {
+        margin: 30px 0;
+        width: 80%;
+    }
+
+    .about-box > * {
+        text-align: center;
+    }
+
+    .a-title {
+        font-size: 25px;
+    }
+
+    .a-desc {
+        font-size: 22px;
+    }
+
+    .portfolio {
+        padding-top: 50px;
+    }
+
+    .blog-list {
+        padding-bottom: 50px;
+    }
+
+    .hover-info {
+        padding-top: 15px;
+    }
+
+    .inner-hover {
+        height: 80%;
+    }
+
+    .contact, .content-foot {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact {
+        padding-bottom: 50px;
+    }
+
+    .contact > * {
+        width: 80%;
+    }
+
+    .contact-form {
+        margin: 30px 0 0 0;
+    }
+
+    .site-desc {
+        width: 100%;
+    }
+
+    .foot-list {
+        width: 100%;
+        margin: 30px 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    header, .copyright {
+        padding: 10px;
+    }
+    
+    .title-box h2 {
+        margin: 5px 5px;
+        text-align: center;
+    }
+
+    .slider-description {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .link-box a {
+        font-size: 16px;
+    }
+
+    .arrow-box {
+        transform: scaleX(1.5);
+        padding: 0 5px;
+    }
+
+    .arrow-box img {
+        width: 20px;
+    }
+
+    .section-temp h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .section-temp span {
+        width: 50px;
+    }
+
+    .about-link {
+        padding: 0 10px;
+    }
+
+    .about-link:first-child {
+        margin: 10px 0;
+    }
+
+    .a-title {
+        font-size: 22px;
+    }
+
+    .section-description, .a-desc {
+        line-height: 25px;
+    }
+
+    .section-description, .a-desc, 
+    .a-link-box a {
+        font-size: 18px;
+    }
+
+    ul[class] li {
+        width: 100%;
+    }
+
+    ul[class]:not(.p-list) li {
+        margin-top: 20px;
+    }
+
+    header .inner-box .menu li {
+        margin-top: 0;
+    }
+
+    .inner-hover {
+        height: 100%;
+    }
+
+    .let-space {
+        text-align: center;
+    }
+
+    .foot-list {
+        flex-wrap: wrap;
+    }
+
+    .foot-list li:first-child {
+        margin: 0;
+    }
+
+    .foot-list li:last-child {
+        margin: 20px 0;
+    }
+
+    .copyright {
+        flex-direction: column;
+    }
+
+    .social-list {
+        width: 80%;
+    }
+
+    .social-list li a {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .menu {
+        width: 50%;
+    }
+
+    .slider-box {
+        padding-top: 120px;
+    }
+}
