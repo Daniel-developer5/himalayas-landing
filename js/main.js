@@ -70,13 +70,25 @@ triggerBtn.addEventListener('click', () => {
     menuShow(!clickIndicator)
 })
 
-document.addEventListener('click', (e) => {
+window.addEventListener('load', getWinWidth)
+window.addEventListener('resize', getWinWidth)
+
+function documentClick(e) {
     if (e.target != triggerBtn && e.target.className != 'header-text anchor') {
         menuShow(false)
     } else {
         menuShow(clickIndicator)
     }
-})
+}
+
+function getWinWidth() {
+    if (window.innerWidth <= 768) {
+        document.addEventListener('click', documentClick)
+    } else {
+        document.removeEventListener('click', documentClick)
+        menuShow(true)
+    }
+}
 
 // Slider functioning
 
