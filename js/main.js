@@ -64,7 +64,6 @@ function menuShow(change) {
         triggerBtn.style.color = '#fff'
         menu.style.transform = 'translateX(250px)'
     }
-    console.log(clickIndicator)
 }
 
 triggerBtn.addEventListener('click', () => {
