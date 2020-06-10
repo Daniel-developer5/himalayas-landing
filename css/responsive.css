@@ -265,6 +265,14 @@
     header, .copyright {
         padding: 10px;
     }
+
+    .menu {
+        width: 170px;
+    }
+
+    .slider-box {
+        padding-bottom: 50px;
+    }
     
     .title-box h2 {
         margin: 5px 5px;
@@ -366,9 +374,9 @@
 
 @media only screen and (max-width: 320px) {
     .menu {
-        width: 90%;
+        width: 150px;
     }
-
+    
     .slider-box {
         padding-top: 120px;
     }
