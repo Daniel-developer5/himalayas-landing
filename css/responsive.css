@@ -167,13 +167,16 @@
         border-radius: 0 0 5px 5px;
     }
 
-
     .menu li a:hover {
         background-color: #236a70;
     }
 
     .trigger {
         display: flex;
+    }
+
+    .slider-box {
+        padding-bottom: 50px;
     }
 
     .title-box h2 {
@@ -270,10 +273,6 @@
         width: 170px;
     }
 
-    .slider-box {
-        padding-bottom: 50px;
-    }
-    
     .title-box h2 {
         margin: 5px 5px;
         text-align: center;
