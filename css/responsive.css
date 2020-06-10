@@ -374,11 +374,7 @@
 
 @media only screen and (max-width: 320px) {
     .menu {
-<<<<<<< HEAD
         width: 150px;
-=======
-        width: 250px;
->>>>>>> 474cd601b0177752b30bf511376335d2b9d02d40
     }
     
     .slider-box {
