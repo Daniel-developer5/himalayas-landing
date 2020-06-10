@@ -55,14 +55,27 @@ const triggerBtn = document.querySelector('.trigger'),
 menu = document.querySelector('.menu')
 let clickIndicator = false
 
-triggerBtn.addEventListener('click', () => {
-    clickIndicator = !clickIndicator
+function menuShow(change) {
+    clickIndicator = change
     if (clickIndicator) {
         triggerBtn.style.color = '#32c4d1'
         menu.style.transform = 'translateX(0)'
     } else {
         triggerBtn.style.color = '#fff'
         menu.style.transform = 'translateX(250px)'
+    }
+    console.log(clickIndicator)
+}
+
+triggerBtn.addEventListener('click', () => {
+    menuShow(!clickIndicator)
+})
+
+document.addEventListener('click', (e) => {
+    if (e.target != triggerBtn && e.target.className != 'header-text anchor') {
+        menuShow(false)
+    } else {
+        menuShow(clickIndicator)
     }
 })
 
